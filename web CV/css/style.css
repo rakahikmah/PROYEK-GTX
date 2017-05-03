@@ -143,6 +143,68 @@ p{
     }
 }
 
+/*product section*/
+
+
+.product{
+    padding: 40px 0px 0px;
+    text-align: center;
+    background-color: #ff9900;
+    
+}
+
+.product{
+    padding: 40px 0px 40px;
+    background-color: #ff9900;
+    
+}
+
+.product h1{
+    margin: 15px 0 15px;
+    font-family: 'Anton', sans-serif;
+    font-size: 35px;
+}
+
+.product p{
+    color: #3c3c3c;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.product .price{
+    padding: 30px 10px 30px 10px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+
+.price li{
+    display: block;
+    padding: 5px;
+}
+
+.price img{
+    height: 250px;
+    width: 250px;
+    border: 1px solid #3c3c3c;
+}
+
+.price button{
+    margin-top: 15px;
+}
+
+@media(max-width: 768px){
+    .product{
+        padding: 10px;
+    }
+    .no-padding{
+        margin-bottom: none !important;
+    }
+}
+
+
 /*service section*/
 
 #interest{
