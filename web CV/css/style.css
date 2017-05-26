@@ -71,7 +71,16 @@ p{
     background-color: #3c3c3c !important;
 }
 
+
+
+
 /*HEADER*/
+
+.introvideo img{
+    width: 100%;
+    height: 400px;
+
+}
 
 .header{
     height: 768px;
